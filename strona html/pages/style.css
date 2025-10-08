@@ -1,0 +1,110 @@
+
+
+body{
+    background-color: #202020;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    float: left;
+    width: 220px;
+    min-height: 960px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 50px;
+    background-color: #101010;
+}
+
+#menu p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+#menu p:hover{
+    background-color: black;
+}
+
+#menu h6{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(163, 163, 161);
+}
+
+#logo{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#container{
+    float: left;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 1560px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav{
+    width: 1580px;
+    margin: 10px;
+}
+
+.tile{
+    float: left;
+    font-size: 25px;
+    width: 296px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tile:hover{
+    background-color: #101010;
+}
+
+main{
+    width: 780px;
+    margin: 10px;
+    float: left;
+    font-size: 20px;
+}
+
+main h3{
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    width: 1874px;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
