@@ -7,11 +7,28 @@
 <meta name="author" content="Bartosz Olszak">
 <title>Budowle Minecraft</title>
 <link rel="stylesheet" href="style.css">
+<script src="kolorujtlo.js" type="text/javascript"></script>
+<script src="timedate.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body onload="startclock()">
     <div id="menu">
         <img src="../Images/logo1.png", id="logo">
+
+        <div id="zegarek"></div>
+        <div id="data"></div>
+
+        <FORM METHOD="POST" NAME="background">
+        <INPUT CLASS="button" TYPE="button" VALUE="Domyślny" ONCLICK="changeBackground('#202020')">
+        <INPUT CLASS="button" TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFFF00')">
+        <INPUT CLASS="button" TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+        <INPUT CLASS="button" TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+        <INPUT CLASS="button" TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+        <INPUT CLASS="button" TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+        <INPUT CLASS="button" TYPE="button" VALUE="pomarańczowy" ONCLICK="changeBackground('#FF8000')">
+        <INPUT CLASS="button" TYPE="button" VALUE="szary" ONCLICK="changeBackground('#C0C0C0')">
+        <INPUT CLASS="button" TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')">
+
         <h6>Budowle</h6>
         <a href="dom.html"><p>Dom Czarodzieja</p></a>
         <a href="zamek.html"><p>Zamek</p></a>
