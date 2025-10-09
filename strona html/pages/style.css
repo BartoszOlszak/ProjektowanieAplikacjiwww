@@ -114,4 +114,10 @@ a{
 
 .czas{
     margin: 15px;
+    display: inline-block;
 }
+
+#data{
+    margin-left: 0px;
+}
+
