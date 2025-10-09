@@ -1,5 +1,3 @@
-
-
 body{
     background-color: #202020;
     color: white;
@@ -38,9 +36,9 @@ body{
 }
 
 #logo{
-    width: 200px;
-    margin-left: 10px;
-    margin-top: 40px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -112,4 +110,8 @@ a{
 .button{
     background-color: #101010;
     color: white;
+}
+
+.czas{
+    margin: 15px;
 }
